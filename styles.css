@@ -14,6 +14,12 @@ h3 {
   font-weight: 900;
 }
 
+h5 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 60%;
+  text-align: left;
+}
+
 p {
   font-size: 0.8rem;
 }
@@ -49,11 +55,11 @@ img {
 }
 
 .caption1 {
-  width: 50%;
+  width: 55%;
   height: 20%;
   background-color: #58785020;
   opacity: 0.1;
-  color: #587850;
+  color: #ffbdd4;
   font-size: 3.5vw;
   position: absolute;
   top: 20%;
@@ -66,16 +72,16 @@ img {
   height: 15%;
   background-color: #51e3d450;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 #ffbdd4, 0 1px #ffbdd4, 1px 0 #ffbdd4, 0 -1px #ffbdd4;
   font-size: 3.5vw;
   position: absolute;
   bottom: 10%;
-  left: 5%;
+  left: 0;
   z-index: 1;
 }
 
 .caption3 {
-  width: 45%;
+  width: 50%;
   height: 15%;
   background-color: #51e3d490;
   color: #3e3838;
@@ -84,6 +90,7 @@ img {
   left: 50%;
   z-index: 1;
 }
+
 .caption3 h1 {
   margin-bottom: 0;
   font-size: 2vw;
@@ -119,6 +126,10 @@ img {
   padding-bottom: 1rem;
 }
 
+.stages-title {
+  padding-top: 1.25rem;
+}
+
 /* news section */
 #news {
   padding: 1rem 6rem;
@@ -148,6 +159,24 @@ img {
   padding-right: 5%
 }
 
+/* end-note footer */
+.column-footer {
+  padding: 0.5rem;
+  text-align: left;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 0.75rem;
+}
+
+.column-footer a {
+  color: #587850;
+
+}
+
+li {
+  display: inline-block;
+
+}
+
 /* connecting with us */
 #bottom-footer {
   padding: 5%;
@@ -165,5 +194,5 @@ img {
 }
 
 .socual-icon:hover {
-font-size: 200%
+  font-size: 200%
 }
