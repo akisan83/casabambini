@@ -1,0 +1,169 @@
+body {
+  text-align: center;
+  color: #587850;
+}
+
+h1 {
+  font-family: 'Baloo', cursive;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 120%;
+  font-weight: 900;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #ffe5b9;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.nav-logo {
+  height: 10%;
+  width: 10%;
+}
+
+.nav-item {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* Intro Images */
+#intro, #title {
+  background-color: white;
+}
+
+.animated {
+  animation-duration: 1.75s;
+  animation-delay: 0.05s;
+}
+
+.caption1 {
+  width: 50%;
+  height: 20%;
+  background-color: #58785020;
+  opacity: 0.1;
+  color: #587850;
+  font-size: 3.5vw;
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  z-index: 1;
+}
+
+.caption2 {
+  width: 50%;
+  height: 15%;
+  background-color: #51e3d450;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 3.5vw;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 1;
+}
+
+.caption3 {
+  width: 45%;
+  height: 15%;
+  background-color: #51e3d490;
+  color: #3e3838;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  z-index: 1;
+}
+.caption3 h1 {
+  margin-bottom: 0;
+  font-size: 2vw;
+  text-align: left;
+}
+
+.captionP {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.5vw;
+  text-align: right;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+/* Stages Section */
+#age {
+  background-color: #ffbdd4;
+  padding: 5% 8%;
+}
+
+.container-fluid h1 {
+  padding: 1rem 2rem;
+}
+
+.stages-column {
+  padding: 0 7rem;
+}
+
+.stages-image {
+  width: 40%;
+  padding-bottom: 1rem;
+}
+
+/* news section */
+#news {
+  padding: 1rem 6rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  padding: 0;
+  /* margin: 1rem 2rem; */
+}
+
+.card-deck {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+#bottom-container {
+  background-color: #ffbdd4;
+  padding: 10% 0;
+}
+
+#bottom-container p {
+  text-align: right;
+  padding-right: 5%
+}
+
+/* connecting with us */
+#bottom-footer {
+  padding: 5%;
+}
+
+#bottom-footer h2 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+}
+
+.social-icon {
+  color: #587850;
+  font-size: 150%;
+  margin: 1%;
+}
+
+.socual-icon:hover {
+font-size: 200%
+}
